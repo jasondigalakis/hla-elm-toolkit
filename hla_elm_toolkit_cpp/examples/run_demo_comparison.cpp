@@ -10,7 +10,7 @@
 //                    Jason Digalakis  (jdigalakis@biomed.ntua.gr)
 // Affiliation: Biomedical Engineering Laboratory, School of Electrical and
 //              Computer Engineering, National Technical University of
-//              Athens (NTUA), Athens, Greece
+//              Athens (NTUA), Athens, Greece.
 //
 // Released as open-source software.
 // -----------------------------------------------------------------------------
