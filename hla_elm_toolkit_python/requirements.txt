@@ -1,0 +1,12 @@
+# Core dependency (ELM/KELM/WELM/Ensemble ELM, EM baseline, GRIMM-style,
+# HaploStats-style, metrics module).
+numpy>=1.24
+
+# Required only for the MLP and gradient-boosted-tree comparators
+# (hla_elm_toolkit.baselines.mlp_baseline / gbt_baseline), used in the
+# article's framework-level benchmarking (Section 2.7, Table 7).
+scikit-learn>=1.3
+
+# Optional, for running the test suite via `pytest tests/`.
+# (tests/test_basic.py also runs standalone with plain `python`.)
+pytest>=7.0
