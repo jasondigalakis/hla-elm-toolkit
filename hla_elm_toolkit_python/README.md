@@ -234,10 +234,10 @@ authors' environment); this package's `haplostats_style.py` and
 `haplo_em.py` are the article's own open, reproducible approximations of
 those tools' core algorithms, not the tools themselves.
 
-## 8. Article gap-closing scripts (Γ.1, Β.2)
+## 8. Article gap-closing script (Γ.1)
 
-Two additional scripts, added after the article's supervisory review
-round, are provided to help close two of the manuscript's flagged
+One additional script, added after the article's supervisory review
+round, is provided to help close one of the manuscript's flagged
 critical gaps without requiring a full new experiment:
 
 * **`examples/recompute_first_field_accuracy.py`** (article gap **Γ.1**):
@@ -251,17 +251,6 @@ critical gaps without requiring a full new experiment:
   same "value \[95% CI\]" figure can be added to the "ELM (reported,
   overall)" row of each affected table. No new model training or
   inference is required -- only re-scoring of existing predictions.
-
-* **`BETA2_DIAGNOSTIC_CHECKLIST.md`** (article gap **Β.2** -- **now
-  resolved**): Section 3.11's in-house Hapl-o-Mat-style baseline
-  previously reported an identical evaluable sample size (n=45) and
-  joint accuracy (100.0%) across three very differently sized cohorts
-  (GRPT, ORAM, HTO). This was traced to a copy-paste transcription
-  error made while writing up Section 3.11 (correct counts: n=45 GRPT,
-  n=38 ORAM, n=29 HTO; the article has been corrected), not a code
-  bug. The checklist is kept as a general step-by-step reference for
-  auditing suspiciously identical figures across differently sized
-  cohorts.
 
 ## 9. License
 
